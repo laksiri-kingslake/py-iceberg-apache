@@ -32,7 +32,7 @@ Select activated virtual environment as the kernel.
 
 2. Install dependencies
 
-```notebook-python
+```python
 # install dependencies
 %pip install --upgrade pip
 %pip install "pyiceberg[s3fs,hive]"
